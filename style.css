@@ -1,0 +1,20 @@
+@media screen and (min-width:675px){
+    main{
+        display: flex;
+        justify-items: center;
+        flex-direction: row;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 0px 20px 20px 0;
+    }
+    figure{
+        border-radius: 20px 0 0 20px ;
+        background-image: url(./images/image-product-desktop.jpg);
+        background-size: cover;
+        min-width: 50%;
+        height: 500px;
+    }
+}
